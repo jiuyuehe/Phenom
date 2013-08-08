@@ -1,0 +1,16 @@
+{
+  "name": "oatos",
+  "version": "2.0.0",
+  "devDependencies": {
+    "underscore": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-handlebars": "0.5.10",
+    "grunt-cmd-transport": "~0.2.8",
+    "grunt-cmd-concat": "~0.2.4",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-text-replace": "~0.3.6",
+    "grunt-contrib-cssmin": "~0.4.1"
+  }
+}
