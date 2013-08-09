@@ -3,7 +3,7 @@ define(function (require, exports, module) {
     require("./views/LoginIndex");
     require("./views/LoginView");
 
-    var ViewerRouter = Backbone.Router.extend({
+    var LoginRouter = Backbone.Router.extend({
         routes: {
             "": "homepage",
             "index": "homepage",
@@ -27,9 +27,6 @@ define(function (require, exports, module) {
         },
 
         initialize: function () {
-            if(seajs.isPrivate) {
-                model.loginDTO.set("private", true);
-            }
             view.indexpage = new IndexView({
                 el: $("body")
             });
@@ -39,20 +36,15 @@ define(function (require, exports, module) {
          * 进入系统后的首页
          */
         homepage: function (path) {
-            if (!view.login) {
-                view.login = new LoginView({
-                    model: model.loginDTO
-                });
-            } else {
-                view.login.delegateEvents();
-                view.login.rebind();
-            }
-            view.indexpage.$el.find(".content").html(view.login.el);
+            view.login = new LoginView({
+                model: new LoginDTO()
+            });
+            view.indexpage.$el.find(".login-view-wrap").html(view.login.el);
         }
     })
 
     exports.initialize = function () {
-        router.viewerRouter = new ViewerRouter();
+        router.loginRouter = new LoginRouter();
         Backbone.history.start(); // 当所有的 路由 创建并设置完毕，调用 Backbone.history.start() 开始监控 hashchange 事件并分配路由
     };
 })

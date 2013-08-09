@@ -10,8 +10,29 @@ define(function (require) {
 
     require('commons-utils');
     require("wind");
+    require('log4javascript');
 
-    require.async(["cssbase/bootstrap.min.css", seajs.devMode ? "cssbase/login-register.css" : "cssbase/login-register.min.css"]);
+    window.Task = Wind.Async.Task;
+
+    var cssfiles = {
+        'bootstrap': 'cssbase/bootstrap.min.css',
+        'boostrap-response': 'cssbase/bootstrap-responsive.min.css',
+        'bootstrap-plugin': 'cssbase/bootstrap-plugin.min.css',
+        'login-register': seajs.devMode ? "cssbase/login-register.css" : "cssbase/login-register.min.css"
+    }
+
+    require.async(_.values(cssfiles));
+
+    /**
+     * init logger
+     */
+    (function () {
+        window.log = log4javascript.getLogger();
+        var consoleAppender = new log4javascript.BrowserConsoleAppender();
+        consoleAppender.setThreshold(log4javascript.Level.DEBUG);
+        log.addAppender(consoleAppender);
+    }());
+
 
     _.extend(window, {
         model: {},
@@ -25,8 +46,7 @@ define(function (require) {
 
     var tpls = {
         "loginIndex": './tpls/LoginIndex.tpl',
-        "loginView": './tpls/LoginView.tpl',
-        "registerView": './tpls/RegisterView.tpl'
+        "loginView": './tpls/LoginView.tpl'
     }
 
     if (seajs.devMode) {

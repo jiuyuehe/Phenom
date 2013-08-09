@@ -3,12 +3,13 @@ define(function (require, exports, module) {
     /**
      * 用户登陆DTO
      */
-    window.LoginDTO = Backbone.Model.extend({
+    window.RegisterDTO = Backbone.Model.extend({
         urlRoot: "",
 
         defaults: {
             username: "",
             password: "",
+            repassword: "",
             agent: util.getAgent(),
             clientId: util.guid()
         },
@@ -18,12 +19,6 @@ define(function (require, exports, module) {
         },
 
         validation: {
-            agent: {
-                required: false
-            },
-            clientId: {
-                required: false
-            },
             password: [
                 {
                     required: true,
@@ -33,6 +28,16 @@ define(function (require, exports, module) {
                     minLength: 5,
                     maxLength: 20,
                     msg: '密码长度在6-20位之间'
+                }
+            ],
+            repassword: [
+                {
+                    required: true,
+                    msg: '请输入用户密码'
+                },
+                {
+                    equalTo: 'password',
+                    msg: '两次输入密码不一致'
                 }
             ],
             username: [
@@ -47,7 +52,7 @@ define(function (require, exports, module) {
             ]
         },
 
-        login: function (callback) {
+        register: function (callback) {
             var that = this;
             this.set(Security.getNonceDTO(this.get("username"), this.get("password")));
             eval(Wind.compile("async", function () {

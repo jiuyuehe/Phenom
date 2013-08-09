@@ -1,74 +1,76 @@
 define(function (require, exports, module) {
 
+    require('../../commons/model/user/LoginDTO');
+    require('../../commons/model/user/RegisterDTO');
+
     window.LoginView = Backbone.View.extend({
         tagName: 'div',
         className: 'log-cont',
         _modelBinder: undefined,
 
+        loginDTO: undefined,
+        registerDTO: undefined,
+
         events: {
-            "click #loginBtn": "login"
+            "show #panel-register": "onShowRegister",
+            "click .btn-login": "onLogin",
+            "click .btn-register": "onRegister"
         },
 
         initialize: function () {
+            this.loginDTO = new LoginDTO();
+            this.registerDTO = new RegisterDTO();
             this._modelBinder = new Backbone.ModelBinder();
             this.render();
         },
 
         render: function () {
+            this.loginDTO = this.model;
             this.$el.html(tplpre.loginView());
 
             Backbone.Validation.bind(this, {
-
-                valid: function (view, attr, selector) {
-                },
-
-                invalid: function (view, attr, error, selector) {
-                    view.$el.find("#errorTip").text(error);
-                }
+                invalid: this.isValid
             });
 
-            this.rebind();
+            this._modelBinder.bind(this.loginDTO, this.$el.find("form:first"));
             return this;
         },
 
-        rebind: function () {
-            var bindings = {
-                'userName': '[name=logAccount]',
-                'entName': '[name=logEntName]',
-                'password': '[name=logPassword]',
-                'private': [
-                    {selector: '[name=private]', elAttribute: 'class', converter: this.setPrivate},
-                    {selector: '[name=registerServer]', elAttribute: 'class', converter: this.setPrivate},
-                    {selector: '[name=domainUser]', elAttribute: 'class', converter: this.showPrivate}
-                ]
-            };
-            this._modelBinder.bind(this.model, this.el, bindings);
+        isValid: function (view, attr, error, selector) {
+            log.debug("invalid: ", attr, ",error:", error)
+            view.$el.find(_.sprintf("input[%s=%s]", selector, attr)).siblings(".help-inline").text(error);
         },
 
-        setPrivate: function (direction, value) {
-            return value ? 'hide' : '';
-        },
 
-        showPrivate: function (direction, value) {
-            return value ? '' : 'hide';
+        onShowRegister: function () {
+            this._modelBinder.unbind();
+            Backbone.Validation.unbind(this);
+            this.model = this.registerDTO;
+            Backbone.Validation.bind(this, {
+                invalid: this.isValid
+            });
+            this._modelBinder.bind(this.registerDTO, this.$el.find("form:last"));
         },
 
         setInputEnable: function (enable) {
-            this.$el.find('#logEntName').attr("disabled", !enable);
-            this.$el.find('#logAccount').attr("disabled", !enable);
-            this.$el.find('#logPassword').attr("disabled", !enable);
-            this.$el.find('#loginBtn').attr("disabled", !enable);
+            this.$el.find("input:text, input:password").attr("disabled", !enable);
         },
 
-        login: function () {
-            if (this.model.isValid(true)) {
-                this.$el.find("#errorTip").empty();
+        onLogin: function () {
+            if (this.loginDTO.isValid(true)) {
                 this.setInputEnable(false);
-                var loginModel = new LoginDTO(this.model.toJSON());
-                if (this.$el.find('#domainCheck').is(':checked')) {
-                    loginModel.set("domainUser", true);
-                }
-                loginModel.login(this._loginCallback());
+                this.loginDTO.login(this._loginCallback());
+            }
+            return false;
+        },
+
+        onRegister: function () {
+            if (this.registerDTO.isValid(true)) {
+                this.setInputEnable(false);
+                this.registerDTO.register(function (result) {
+
+                });
+
             }
             return false;
         },
