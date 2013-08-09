@@ -65,6 +65,7 @@
     var pluginName
     var m
 
+      console.log("id:",id, ", pluginName:", pluginName,", data:", data);
     // text!path/to/some.xx
     if ((m = id.match(/^(\w+)!(.+)$/)) && isPlugin(m[1])) {
       pluginName = m[1]

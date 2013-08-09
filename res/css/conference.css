@@ -1,0 +1,515 @@
+#conference-list .conference-info{
+    width: 244px;
+}
+
+.conference-info .row-fluid.theme{
+    margin-top: 10px;
+}
+
+.conference-info .row-fluid div:first-child{
+    text-align: right;
+    color: #999;
+    font-size: 12px;
+}
+
+.conference_hide {
+	display: none;
+}
+
+.inline_show{
+    display: inline-block;
+}
+
+ul#conference-list>li>ul>li{
+    float: left;
+}
+
+ul.conference-item li.theme{
+    display: inline-block;
+    width: 70%;
+    margin-left: 10px;
+    float: left;
+}
+
+ul.conference-item li.theme .theme-txt{
+    display: inline-block;
+    width: 95px;
+    float: left;
+    text-overflow: ellipsis;
+    line-height: 33px;
+    overflow: hidden;
+}
+
+ul#conference-list>li{
+    height:35px;
+    border-bottom:1px #d3d7e0 solid;
+    margin: 0 5px;
+ }
+
+ul#conference-list>li>ul{
+    height:33px;
+    margin:1px 0;
+    background:#e9ecf0;
+}
+
+
+ul#conference-list>li>ul>li{
+    line-height:33px;
+}
+
+ul#conference-list .popover{
+    background:transparent;
+    border:0;
+    padding:0;
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+}
+
+ul#conference-list .popover .arrow{
+    display:none;
+}
+
+ul#conference-list .popover .popover-content{
+    background:#fff;
+    z-index:9999;
+    position:relative;
+    left: 8px;
+    padding: 0;
+    border: 1px solid #2c82bf;
+    border-radius: 5px;
+}
+
+.conference-info .row-fluid .span4{
+      color:#2c82bf;
+}
+
+.conference-info .row-fluid .span8{
+    color:#616d87;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.conference-topic{
+    margin: 0 5px;
+    text-align:center;
+    height:25px;
+    line-height:25px;
+    background:#c9d5e3;
+    font-size:16px;
+    color:#616d87;
+    font-family: bold;
+}
+
+#conference-list li a i.icon-caret-right,#conference-list li a i.icon-edit,#conference-list li a i.icon-remove,#conference-list li a i.icon-list-alt{
+    font-size: 16px;
+}
+
+ul#conference-list > li > ul:hover {
+    background-color: #EAFCFC;
+}
+
+.conference-info .span4{
+    width: 66px;
+}
+
+#conference-info{
+    margin-top:10px;
+}
+
+.add_conference .page-header{
+    background: transparent;
+    height: 25px;
+    border-bottom: 1px solid #768699;
+    text-align: center;
+    color:#81899c;
+    font-size:15px;
+    margin:0 5px;
+}
+
+.add_conference .page-header .icon{
+    float: right;
+    line-height: 36px;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.add_conference .page-header h3{
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight:normal;
+    padding-left:5px;
+}
+
+#conferenceView{
+    background-color: #F6F9FE;
+    height: 100%;
+}
+
+
+.add_conference #now_meeting p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.add_conference input.theme{
+    margin-right: 5px;
+    width: 230px;
+    margin-bottom: 0;
+    padding: 0;
+    height: 30px;
+}
+
+
+.add_conference #addMember{
+    width: 230px;
+}
+
+.add_conference #now_meeting {
+    position: relative;
+
+}
+
+.add_conference .checkBox{
+    margin-top: 30px;
+}
+
+.add_conference .checkBox .checkbox-sprite{
+    float: left;
+}
+
+.add_conference .checkBox .record_label{
+    float: left;
+    margin-right: 30px;
+    height:13px;
+    line-height:13px;
+}
+
+.add_conference .checkBox .meeting_label{
+    height:13px;
+    line-height:13px;
+}
+
+.add_conference .submitBox{
+    margin-top: 30px;
+}
+
+.add_conference .submitBox .sureBtn{
+    margin-right: 6px;
+}
+
+.add_conference .select2-container-multi .select2-choices .select2-search-choice {
+    line-height: 18px;
+
+}
+
+.add_conference #plan_meeting p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#plan_meeting textarea.content{
+    width: 230px;
+}
+
+.add_conference #plan_meeting {
+    position: relative;
+}
+
+#plan_meeting div.input-append input {
+    width: 192px;
+}
+
+.add_conference .sureBtn .btn{
+    width: 165px;
+}
+
+ .pageBox{
+    overflow: auto;
+    width: 264px;
+}
+
+.pageBox .page-view{
+    overflow:auto;
+}
+
+#conferenceView #conference-list{
+
+}
+
+#conferenceView .page-turn-zone{
+    margin-right:15px;
+}
+#conferenceView .meeting_label{
+    float: left;
+}
+
+#conferenceView .operate-panel .input-small{
+    width:160px;
+    margin-left: 5px;
+}
+
+#conferenceView .operate-panel .dropdown-toggle{
+    width:35px;
+    height: 30px;
+}
+
+#conferenceView .dropdown-menu{
+    min-width: 60px;
+    margin-top: -4px;
+}
+
+.doc-upload-item {
+    display: inline-block;
+}
+.doc-upload-item .doc-item-name {
+    height: 26px;
+    line-height: 26px;
+}
+.doc-upload-item .doc-item-name .doc-file-name {
+    padding-right: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+    max-width: 200px;
+    white-space: nowrap;
+    color: #7F8C9D;
+    float: left;
+}
+.doc-upload-item .doc-item-name .upload-error {
+    text-decoration: line-through;
+}
+.doc-upload-item .doc-item-name .doc-file-name:hover {
+    color: #0088CC;
+    font-weight: 600;
+}
+.doc-upload-item .doc-item-progress {
+    height: 16px;
+    line-height: 16px;
+}
+.doc-upload-item .doc-item-progress .doc-progress {
+    margin-top: 4px;
+    width: 100px;
+    background-color: #333333;
+    overflow: hidden;
+    float: left;
+}
+.doc-upload-item .doc-item-progress .doc-progress .uploaded {
+    height: 6px;
+    background-color: #62C462;
+}
+.doc-upload-item .doc-item-progress .doc-percent {
+    padding-left: 6px;
+    color: #7F8C9D;
+    display: inline-block;
+}
+
+.conference-info .row-fluid .span8.content{
+    word-break:break-all;
+    max-height:65px;
+    overflow-y:auto;
+    width: 170px;
+}
+
+.conference-info .row-fluid .span8.member_content{
+    width: 170px;
+    word-wrap:break-word;
+    float: left;
+    overflow-y: auto;
+    max-height:65px;
+    overflow-y:auto;
+}
+
+ul.conference-item li.theme .nowIcon{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    background-image: url('../../../../../baiduyundownload/os/img/icons.png');
+    background-position: -126px -238px;
+    width: 14px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+ul.conference-item li.theme .planIcon{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    background-image: url('../../../../../baiduyundownload/os/img/icons.png');
+    background-position: -126px -252px;
+    width: 14px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+ul.conference-item li.theme .typeTitle {
+    display: inline-block;
+    float: left;
+    margin-right: 7px;
+}
+
+#conferenceView .operate-panel .btn-group {
+    margin-bottom: 6px;
+
+}
+
+#conference-list .popover {
+    max-width: 246px;
+    min-height: 218px;
+}
+
+.conference-info .row-fluid [class*="span"] {
+    min-height: 25px;
+}
+
+.conference-info .row-fluid .span8 {
+    width:170px;
+}
+
+#conference-list .conference-item.createItem {
+    background-color: #fff;
+}
+
+.checkbox-sprite.hide{
+    display: none;
+}
+
+.add_conference .addMemberBox{
+    position: relative;
+}
+
+
+.add_conference #now_meeting .addMember{
+    left:210px;
+    top:28px;
+    position: absolute;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.add_conference #plan_meeting .addMember{
+    left:210px;
+    top:28px;
+    position: absolute;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+#errorTip{
+    color: red;
+    text-align: center;
+}
+
+.nav-tabs .icon-usual-contact{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -5px -285px no-repeat;
+}
+.nav-tabs>li.active .icon-usual-contact{
+    width:18px;
+    height:18px;
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -33px -285px no-repeat;
+}
+
+.nav-tabs .icon-colleague{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -62px -285px no-repeat;
+}
+.nav-tabs>li.active .icon-colleague{
+    width:18px;
+    height:18px;
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -90px -285px no-repeat;
+}
+#colleague_view  .nav-tabs>li{
+    height:100%;
+}
+#colleague_view  .nav-tabs>li >a{
+    height:36px;
+    line-height:36px;
+    padding:0;
+}
+#colleague_view .nav-tabs>li >a>i{
+    vertical-align:middle;
+}
+
+.picker-switch.accordion-toggle > a {
+    margin-left: 106px;
+    text-align: center;
+}
+
+#instant-conference-view fieldset {
+    margin-left: 10px;
+}
+
+#plan-conference-view fieldset {
+    margin-left: 10px;
+}
+
+.ui_content #departmentUserTreeWrapper{
+    height: 322px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.ui_content {
+    width: 200px;
+    padding: 0;
+}
+
+#conferenceView i[class^="icon-conference-"]{
+    background-image: url('../../../../../baiduyundownload/os/img/icons.png');
+    display:inline-block;
+    width:14px;
+    height:14px;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+#conferenceView .icon-conference-start{
+    background-position: -196px -238px;
+}
+#conferenceView .icon-conference-attend{
+    background-position: -154px -238px;
+}
+#conferenceView .icon-conference-edit{
+    background-position: -140px -238px;
+}
+#conferenceView .icon-conference-remove{
+    background-position: -168px -238px;
+}
+
+#conferenceView a:hover > .icon-conference-start{
+    background-position: -196px -252px;
+}
+#conferenceView a:hover > .icon-conference-attend{
+    background-position: -154px -252px;
+}
+#conferenceView a:hover > .icon-conference-edit{
+    background-position: -140px -252px;
+}
+#conferenceView a:hover > .icon-conference-remove{
+    background-position: -168px -252px;
+}
+#conferenceView .operate-panel{
+    margin-left:5px;
+}

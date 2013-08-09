@@ -1,0 +1,1148 @@
+#user-layout .back-color {
+    background-color: #CCF9FE;
+}
+
+#colleague_view .accordion-heading .accordion-toggle {
+    display: inline-block;
+}
+
+#colleague_view .accordion-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#departmentTree .userList {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.userList li img {
+    width: 37px;
+    height: 37px;
+    float: right;
+    border-left: 1px solid #FFFFFF;
+}
+
+#colleague_view .user-search, #colleague_view .depart-searchbox {
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#colleague_view .depart-searchbox {
+    width: 260px;
+    display: block;
+}
+
+#colleague_view .user-search {
+    width: 180px;
+}
+
+#colleague_view .nav-tabs > li {
+    width: 50%;
+}
+
+#colleague_view .nav-tabs > li > a {
+    color: #818b9d;
+    text-align: center;
+}
+
+#colleague_view .nav-tabs > li.active > a {
+    background-color: #5AB8F6;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#colleague_view .nav-tabs {
+    border-bottom: 2px solid #5AB8F6;
+}
+
+#departmentTree .accordion-heading {
+    text-align: center;
+}
+
+.inner-department {
+    padding-left: 40px;
+}
+
+.top-accordion-inner {
+    max-height: 330px;
+    overflow-y: auto;
+}
+
+#usual_colleague_view > .contact-del {
+    padding-left: 55px;
+}
+
+#usual_colleague_view > .contact-add {
+    padding-left: 55px;
+}
+
+#usual_colleague_view > .contact-del .btn, #usual_colleague_view > .contact-add .btn {
+    margin: 0 10px;
+}
+
+#usual_colleague_view .operate-panel {
+    margin-left: 5px;
+}
+
+#usual_colleague_view .dealContact {
+    display: inline-block;
+    height: 30px;
+    margin-left: 3px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #808C9C;
+}
+
+#usual_colleague_view .dealContact i {
+    margin-left: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#usualContactTreeWrap .userList .userName {
+    color: #808C9C;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 95%;
+    overflow: hidden;
+}
+
+#usualContactTreeWrap .depart-info label {
+    color: #A4AFC1;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80px;
+}
+
+#usualContactTreeWrap .depart-info span {
+    font-weight: bold;
+}
+
+#usualContactTreeWrap li .span1 {
+    margin-top: 14px;
+}
+
+#usualContactTreeWrap li .span1 i {
+    cursor: pointer;
+}
+
+#usualContactTreeWrap .userList .chat-span.span2 {
+    width: 45px;
+}
+
+#usualContactTreeWrap .userList li > div > .span2 > div {
+    width: 43px;
+    height: 37px;
+    margin-top: 4px;
+    border: 1px solid #FFFFFF;
+}
+
+#usualContactTreeWrap .userList div.online, .user-layout .ztree .online_ico_docu {
+    background-color: #6ADA48;
+}
+
+#usualContactTreeWrap .userList div.busy, .user-layout .ztree .busy_ico_docu {
+    background-color: #D53233;
+}
+
+#usualContactTreeWrap .userList div.leave, .user-layout .ztree .leave_ico_docu {
+    background-color: #2F2BE2;
+}
+
+#usualContactTreeWrap .userList div.offline, #usualContactTreeWrap .userList div.logout, .user-layout .ztree .offline_ico_docu, .user-layout .ztree .logout_ico_docu {
+    background-color: #959990;
+}
+
+#usualContactTreeWrap .userList div.corbet, .user-layout .ztree .corbet_ico_docu {
+    background-color: #E2DC2B;
+}
+
+#usualContactTreeWrap .userList div.offline > img, #usualContactTreeWrap .userList div.logout > img, .user-layout .ztree .offline_ico_docu > img, .user-layout .ztree .logout_ico_docu > img {
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+#usualContactTreeWrap .userList .contact-del {
+    float: left;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: -4px;
+}
+
+#usualContactTreeWrap .span8.chat-span div {
+    height: 24px;
+}
+
+#user-layout .collapse {
+    position: static;
+}
+
+.popover-content {
+    padding: 7px;
+}
+
+.name-card {
+    width: 231px;
+    height: 151px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #7F92A0;
+}
+
+.name-card p {
+    line-height: 20px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.name-card p span {
+    font-weight: bold;
+}
+
+.name-card .avatar {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #7C92A0;
+}
+
+.name-card > div + p + div > div + div.span8 {
+    margin-left: -15px;
+    font-weight: bold;
+}
+
+.name-card div p > span + span {
+    float: right;
+    margin-right: 15px;
+}
+
+.name-card .card-user-name {
+    font-family: "宋体", Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.name-card .online {
+    color: #6ADA48;
+}
+
+.name-card .busy {
+    color: #D53233;
+}
+
+.name-card .leave {
+    color: #2F2BE2;
+}
+
+.name-card .offline, .logout {
+    color: #959990;
+}
+
+.name-card .corbet {
+    color: #E2DC2B;
+}
+
+.chat-window {
+    width: 245px;
+    height: 211px;
+}
+
+.chat-dialog .chat-body {
+    height: 176px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.chat-dialog .chat-body > div > div > span + span {
+    float: right;
+    margin-right: 10px;
+}
+
+.chat-dialog .chat-body > div > .message_title {
+    font-weight: 900;
+}
+
+.chat-dialog .chat-body > div > .sender {
+    color: #4A3DF9;
+}
+
+.chat-dialog .chat-body > div > .receiver {
+    color: #3C9135;
+}
+
+.chat-dialog .chat-body .chat-item {
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.chat-dialog .chat-body .chat-item .content {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.chat-dialog .chat-body .chat-item .message_title {
+    margin-bottom: 1px;
+}
+
+.chat-dialog .chat-body .chat-item .my-title,.chat-dialogs .chat-body .chat-item .my-title {
+    color: #4a3df9;
+}
+
+.chat-dialog .chat-body .chat-item .other-title {
+    color: #3c9135;
+}
+
+.chat-dialog .chat-body .chat-item .message_title span[name="fromUser"] {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 39%;
+}
+
+.chat-dialog .chat-foot {
+    height: 32px;
+    background-color: #F6F9FE;
+    line-height: 32px;
+    border-top: 1px solid #C6D0DC;
+
+}
+
+.chat-dialog .chat-foot input {
+    width: 175px;
+    height: 18px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.chat-dialog .chat-foot span {
+    float: right;
+    margin-top: -2px;
+    margin-right: 4px;
+}
+
+.takePhotoView {
+    width: 480px;
+    height: 480px;
+}
+
+.departmentUserTree {
+    width: 100%;
+    overflow: auto;
+}
+
+.chat-dialog .ui_dialog .chat-title-bar, .chat-dialog .chat-title-bar .ui_title, .chat-dialog .chat-title-bar .ui_title_buttons {
+    height: 33px;
+    line-height: 33px;
+}
+
+.chat-dialog .ui_dialog .chat-title-bar .ui_title {
+    padding-right: 50px;
+}
+
+.dialog-head {
+    width: 220px;
+    height: 33px;
+    line-height: 33px;
+}
+
+.dialog-head > div + div {
+    float: left;
+}
+
+.dialog-avatar {
+    width: 29px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 3px;
+    float: left;
+    border: 1px none;
+}
+
+.img-avatar {
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-left: 1px solid #FFFFFF;
+}
+
+.img-avatar img {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+}
+
+.user-layout .ztree .noline_docu {
+    display: none;
+}
+
+/* .user-layout .ztree a[class^="level"] > span,
+.user-layout .ztree a[class*="level"] > span {
+    font-size: 15px;
+    color: #a4afc1;
+    margin-left: 5px;
+} */
+
+.user-layout .ztree li a.curSelectedNode.user {
+    background-color: transparent;
+    border: 0px;
+    opacity: 1;
+}
+
+.user-layout .ztree li a.curSelectedNode.user:hover {
+    background-color: #CCF9FE;
+}
+
+.user-layout .ztree li a.user:hover {
+    background-color: #CCF9FE;
+    font-weight: bold;
+}
+
+.user-layout .usual-contact-btn {
+    right: 5px;
+    line-height: 30px;
+}
+
+.user-layout .usual-contact-btn i.btn-contact, .usual-contact-list .span1 i.btn-contact {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.user-layout .usual-contact-btn i.usu-contact-true {
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -5px -285px no-repeat;
+}
+
+.user-layout .user-hover i.usu-contact-true, .usual-contact-list .span1 i.btn-contact {
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -201px -285px no-repeat;
+    cursor: pointer;
+}
+
+.user-layout .user-hover i.usu-contact-false {
+    background: url('../../../../../baiduyundownload/os/img/icons.png') -145px -285px no-repeat;
+    cursor: pointer;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.user-layout ul.contact-bar {
+    margin: 0 5px 0 3px;
+    padding: 0 3px 0 5px;
+    border-bottom: 1px solid #768699;
+}
+
+.user-layout ul.contact-bar li {
+    display: inline-block;
+    text-shadow: 0 1px 0 #FFFFFF;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #81899C;
+}
+
+.user-layout ul.contact-bar li + li {
+    float: right;
+}
+
+.user-layout ul.contact-bar i {
+    cursor: pointer;
+}
+
+.user-layout ul.contact-bar div {
+    display: inline-block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #81899C;
+    font-weight: normal;
+}
+
+.user-layout ul.contact-bar span {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    vertical-align: middle;
+}
+
+.user-layout ul.add-bar span {
+    background-position: -144px -285px;
+}
+
+.user-layout ul.del-bar span {
+    background-position: -200px -285px;
+}
+
+.user-layout .nav-tabs {
+    height: 37px;
+    margin-bottom: 0;
+}
+
+.user-layout .ztree li a.curSelectedNode.department {
+    background-color: transparent;
+    border: 0px;
+    opacity: 1;
+}
+
+.user-layout .ztree li a.curSelectedNode.department > span {
+    font-size: 14px;
+}
+
+.user-layout .popover{
+    z-index:  2100;
+}
+
+.user-layout .popover-title {
+    display: none;
+}
+
+.chat-dialog .open-video-icon {
+    background: url("../../../../../baiduyundownload/os/img/oatos-icons.png") -300px -55px no-repeat;
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+a.send-btn {
+    padding: 2px 5px;
+    width: 30px;
+}
+
+.chat-span {
+    margin-left: 15px;
+}
+
+.chat-dialog .ui_title {
+    cursor: default !important;
+}
+
+.chat-dialog.ui_border .ui_lt, .chat-dialog.ui_border .ui_rt, .chat-dialog.ui_border .ui_l, .chat-dialog.ui_border .ui_r, .chat-dialog.ui_border .ui_lb, .chat-dialog.ui_border .ui_b, .chat-dialog.ui_border .ui_t, .chat-dialog.ui_border .ui_rb {
+    background: none;
+    display: none;
+}
+
+.chat-dialog .ui_title {
+    background: -moz-linear-gradient(center top, #2D85C4, #328CCB) repeat scroll 0 0 transparent;
+
+}
+
+.chat-dialog .ui_min {
+    margin-top: -8px;
+
+}
+
+.chat-dialog .ui_min .ui_min_b {
+    border-bottom: none;
+    background: url("../../../../../baiduyundownload/os/img/icons.png") -168px -308px no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+.chat-dialog .ui_min:hover .ui_min_b {
+    background-position: -168px -322px;
+}
+
+.chat-dialog .ui_min .chat-res-b {
+    background: url("../../../../../baiduyundownload/os/img/icons.png") -322px -308px no-repeat;
+    margin-top: 4px;
+}
+
+.chat-dialog .ui_min:hover .chat-res-b {
+    background: url("../../../../../baiduyundownload/os/img/icons.png") -322px -322px no-repeat;
+    margin-top: 4px;
+}
+
+.chat-dialogs .ui_min .chat-res-b {
+    background: url("../../../../../baiduyundownload/os/img/icons.png") -322px -308px no-repeat;
+    margin-top: 4px;
+}
+
+.chat-dialogs .ui_min:hover .ui_min_b.chat-res-b {
+    background: url("../../../../../baiduyundownload/os/img/icons.png") -322px -322px no-repeat;
+    margin-top: 4px;
+}
+
+
+.chat-dialog .ui_close {
+    color: #000;
+    text-decoration: none;
+    border:0;
+    margin-top: 2px;
+}
+
+.chat-dialog .ui_close:hover {
+    color: red;
+    text-decoration: none;
+    border:0;
+}
+
+.chat-dialog .ui_content, .chat-dialogs .ui_content {
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.chat-dialog .ui_dialog .chat-title-bar, .chat-dialog .chat-title-bar .ui_title, .chat-dialog .chat-title-bar .ui_title_buttons {
+    height: 32px;
+    line-height: 32px;
+}
+
+.chat-dialog .ui_title_bar {
+    width: 245px;
+}
+
+.chat-dialog .chat-window-header .user_info, .chat-dialogs .chat-window-header .user_info {
+    margin-left: 4px;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chat-dialogs.ui_border .ui_lt, .chat-dialogs.ui_border .ui_rt, .chat-dialogs.ui_border .ui_l, .chat-dialogs.ui_border .ui_r, .chat-dialogs.ui_border .ui_lb, .chat-dialogs.ui_border .ui_b, .chat-dialogs.ui_border .ui_t, .chat-dialogs.ui_border .ui_rb {
+    background: none;
+    display: none;
+}
+
+.chat-dialogs .open-video-icon {
+    background: url("../../../../../baiduyundownload/os/img/oatos-icons.png") -300px -55px no-repeat;
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.chat-dialogs .ui_dialog .chat-title-bars, .chat-dialogs .chat-title-bars .ui_title, .chat-dialogs .chat-title-bars .ui_title_buttons {
+    height: 32px;
+    line-height: 32px;
+}
+
+.chat-dialogs .ui_min {
+    margin-top: -8px;
+}
+
+.chat-dialogs .ui_min_b {
+    border-bottom: none;
+    background: url("../../../../../baiduyundownload/os/img/icons.png") -168px -308px no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+.chat-dialogs .ui_min:hover .ui_min_b {
+    background-position: -168px -322px;
+}
+
+
+.chat-dialogs .ui_close {
+    color: #000;
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.chat-dialogs .ui_close:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.chat-dialogs .chat-windows {
+    width: 327px;
+    height: 198px;
+    position: relative;
+}
+
+.chat-dialogs .chat-windows .user_list {
+    width: 77px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    margin-top: 12px;
+    background-color: #dbe5f1;
+    border-bottom: 1px #c6d0da solid;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav {
+    margin-right: 0;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li {
+    list-style: none;
+    background-color: #dbe5f1;
+    width: 75px;
+    height: 23px;
+    position: relative;
+    border: 1px #c6d0da solid;
+    font-size: 12px;
+    color: #7c92a1;
+
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.active {
+    background-color: #FFF;
+    border: 1px #FFF solid;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2b76c9;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover {
+    background-color: #ccf9fd;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #518cb4;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.active .avatarBox {
+    padding-top: 4px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.active .userName {
+    padding-top: 5px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .userBox {
+    cursor: pointer;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover .userBox {
+    margin-top: 4px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover.active .userBox {
+    margin-top: 0px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .avatarBox {
+    width: 18px;
+    float: left;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .avatar {
+    width: 18px;
+    height: 18px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .userName {
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 50px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .removeUser {
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    display: none;
+
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover .removeUser {
+    display: block;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .removeUser b {
+    background: url('../../../../../baiduyundownload/os/img/oatos-icons.png') -76px -91px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .removeUser b:hover {
+    background: url('../../../../../baiduyundownload/os/img/oatos-icons.png') -104px -91px;
+}
+
+.chat-dialogs .ui_content {
+    width: 100%;
+    display: block;
+}
+
+.chat-dialogs .chat-windows .scrollTop {
+    height: 12px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 77px;
+    display: block;
+    background-color: #DBE5F1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
+}
+
+.chat-dialogs .chat-windows .scrollBottom {
+    bottom: 0px;
+    height: 12px;
+    left: 0px;
+    position: absolute;
+    width: 77px;
+    display: block;
+    background-color: #DBE5F1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
+
+}
+
+.chat-dialogs .chat-windows a.scrollTop:hover, .chat-dialogs .chat-windows a.scrollTop:focus, .chat-dialogs .chat-windows a.scrollBottom:hover, .chat-dialogs .chat-windows a.scrollBottom:focus {
+    text-decoration: none;
+}
+
+.chat-dialogs .chat-windows .tab-content {
+    width: 249px;
+    height: 198px;
+    overflow: hidden;
+}
+
+.chat-dialogs .chat-windows .tab-content .tab-pane {
+    width: 249px;
+    height: 198px;
+    overflow: hidden;
+}
+
+.chat-dialogs .chat-windows .tab-content .chat-body {
+    width: 242px;
+    height: 165px;
+    overflow-y: auto;
+    padding-left: 10px;
+}
+
+.chat-dialogs .chat-windows .tab-content .chat-foot {
+    width: 247px;
+    height: 30px;
+}
+
+.chat-dialogs .chat-windows .chat-foot input {
+    width: 170px;
+    height: 18px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.chat-dialogs .chat-foot span {
+    float: right;
+    margin-right: 2px;
+    margin-top: 3px;
+
+}
+
+.chat-dialogs .chat-body .sendDate {
+    float: right;
+    margin-right: 10px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .online {
+    float: left;
+    height: 18px;
+    width: 2px;
+    background-color: #6ADA48;
+    margin-top: 3px;
+    border-right: 1px solid #fff;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li .logout {
+    float: left;
+    height: 18px;
+    width: 2px;
+    background-color: #959990;
+    margin-top: 3px;
+    border-right: 1px solid #fff;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.active .online {
+    margin-top: 7px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.active .logout {
+    margin-top: 7px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover.active .online {
+    margin-top: 7px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover.active .logout {
+    margin-top: 7px;
+}
+
+.chat-dialog .chat-title-bar .Status.online {
+    height: 25px;
+    width: 2px;
+    float: left;
+    background-color: #6ADA48;
+}
+
+.chat-dialog .chat-title-bar .Status.logout {
+    height: 25px;
+    width: 2px;
+    float: left;
+    background-color: #959990;
+}
+
+.chat-dialog .chat-title-bar .img-avatar.online {
+    background-color: #6ADA48;
+
+}
+
+.chat-dialog .chat-title-bar .img-avatar.logout {
+    background-color: #959990;
+
+}
+
+.chat-dialogs .chat-title-bars .Status.online {
+    height: 25px;
+    width: 2px;
+    float: left;
+    background-color: #6ADA48;
+}
+
+.chat-dialogs .chat-title-bars .Status.logout {
+    height: 25px;
+    width: 2px;
+    float: left;
+    background-color: #959990;
+}
+
+.chat-dialogs .chat-title-bars .img-avatar.online {
+    background-color: #6ADA48;
+}
+
+.chat-dialogs .chat-title-bars .img-avatar.logout {
+    background-color: #959990;
+}
+
+
+.chat-item .filecontent {
+    margin-top: 10px;
+}
+
+.filecontent .operation {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 5px;
+}
+
+.filecontent .fileItem {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 5px;
+}
+
+.filecontent .fileItem .file-icon {
+    margin-top: -5px;
+}
+
+.filecontent .fileName {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    max-width: 154px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chat-item .fileOpt a {
+    margin-right: 25px;
+}
+
+.chat-item .videoOpt {
+    margin-top: 5px;
+}
+
+.chat-item .videoOpt a {
+    margin-right: 10px;
+}
+
+.tips-dialog .ui_dialog .ui_title_bar, .tips-dialog .ui_title_bar .ui_title, .tips-dialog .ui_title_bar .ui_title_buttons {
+    height: 31px;
+    line-height: 31px;
+}
+
+.tips-dialog.ui_border .ui_lt, .tips-dialog.ui_border .ui_rt, .tips-dialog.ui_border .ui_l, .tips-dialog.ui_border .ui_r, .tips-dialog.ui_border .ui_lb, .tips-dialog.ui_border .ui_b, .tips-dialog.ui_border .ui_t, .tips-dialog.ui_border .ui_rb {
+    background: none;
+    display: none;
+}
+
+.tips-dialog .ui_dialog .ui_title_bar {
+    width: 208px;
+}
+
+.messageTip .avatar {
+    float: left;
+    margin-left: 5px;
+}
+
+.messageTip .avatar img {
+    width: 23px;
+    height: 23px;
+}
+
+.messageTip .msgNumBox {
+    float: left;
+    width: 25px;
+    height: 15px;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 15px;
+}
+
+.messageTip .username {
+    float: left;
+    margin-left: 8px;
+}
+
+.tips-dialog .ui_title {
+    background: -moz-linear-gradient(center top, #2D85C4, #328CCB) repeat scroll 0 0 transparent;
+}
+
+.depart-searchbox .input-medium {
+    margin-left: 10px;
+}
+
+.depart-searchbox .icon {
+    color: #808C9C;
+    font-size: 16px;
+    height: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    float: left;
+    cursor: pointer;
+}
+
+.department-user-list div.online {
+    background-color: #6ADA48;
+}
+
+.department-user-list div.logout, .department-user-list div.offline {
+    background-color: #959990;
+}
+
+.department-user-list li > div > .span2 > div {
+    border: 1px solid #FFFFFF;
+    height: 37px;
+    margin-top: 4px;
+    width: 43px;
+}
+
+.department-user-list li img {
+    border-left: 1px solid #FFFFFF;
+    float: right;
+    height: 37px;
+    width: 37px;
+}
+
+.department-user-list li .span8.chat-span > div {
+    height: 39px;
+    line-height: 39px;
+    vertical-align: middle;
+}
+
+.department-user-list li .span1 > div {
+    height: 39px;
+    line-height: 39px;
+    vertical-align: middle;
+}
+
+.header-nav-userInfo {
+    cursor: pointer;
+}
+
+.ui_content #takePhotoView {
+    margin-left: -10px;
+}
+
+.ui_content #chatVideoView {
+    margin-left: -10px;
+}
+
+#service-price-box .service-modal-header {
+    width: 100%;
+    height: 20px;
+}
+
+#service-price-box .contentBox {
+    width: 100%;
+    height: 500px;
+    overflow-y:auto;
+
+}
+
+.chat-window .chat-content {
+    width: 185px;
+    margin-left: 5px;
+    height: 26px;
+    resize: none;
+    margin-bottom: 1px;
+}
+
+.chat-windows .chat-content {
+    width: 185px;
+    margin-left: 5px;
+    height: 28px;
+    resize: none;
+    margin-bottom: 1px;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.new-msg-blue {
+    background-color: #ccf9fd;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li.new-msg-gray {
+    background-color: #dbe5f1;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover.new-msg-blue {
+    background-color: #dbe5f1;
+}
+
+.chat-dialogs .chat-windows .user_list ul.nav li:hover.new-msg-gray {
+    background-color: #dbe5f1;
+}
+
+#search-department-users .chat-span .userName {
+    margin-left: 5px;
+}
+
+.chat-dialogs .chat-body .chat-item .message_title span[name="fromUser"] {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 39%;
+}

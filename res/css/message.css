@@ -1,0 +1,209 @@
+#message_content_view ul.nav-tabs {
+    border-bottom: 2px solid #5ab8f6;
+}
+
+#message_content_view .nav-tabs>li>a {
+    color: #818b9d;
+}
+
+#message_content_view .nav-tabs>.active>a {
+    background: #5ab8f6;
+    color: #fff;
+}
+
+#message_content_view .nav-tabs>li.active>a>span {
+    display: inline;
+    font-weight:bold;
+}
+
+#message_content_view .nav-tabs>li>a {
+    margin-right: 0;
+}
+
+#message_content_view .nav-tabs>li>a:hover {
+    background: #5ab8f6;
+}
+
+#message_content_view .tabbable {
+    padding: 4px;
+}
+
+#tabFile ul li, #tabInstance ul li, #tabSystem ul li {
+    height: 35px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px #d3d7e0 solid;
+}
+
+#tabFile ul li img, #tabInstance ul li img, #tabSystem ul li img {
+    height: 28px;
+}
+
+#fileMessageContent, #instanceMessageContent, #systemMessageContent {
+}
+
+#message_content_view .pageBox {
+    margin-top: 5px;
+}
+
+#message_content_view .pageBox .page-view >span >a {
+    color: #9dabb8;
+}
+
+.msg-content {
+    display: inline-block;
+}
+
+.msg-content .label {
+    max-width: 80px;
+}
+
+.messageItem .user-name, .message-card .span9 span:first-child {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.messageItem .file-name {
+    display: inline-block;
+    line-height: 1.5em;
+    max-width: 39%;
+}
+
+.messageItem .avatar {
+    width: 28px;
+    height: 28px;
+}
+
+ul#chatHistoryContent{
+    width:100%;
+}
+
+ul#chatHistoryContent .messageItem span[name="user_info"]{
+    display: inline-block;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+.messageItem {
+    border-bottom: 1px solid #888888;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+#message_content_view .nav-tabs >li{
+    width:48%;
+}
+#message_content_view .nav-tabs >li>a{
+    display: inline-block;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0;
+    width: 80%;
+}
+
+#instanceMessageContent .messageItem span {
+    vertical-align: middle;
+}
+#instanceMessageContent .messageItem span[name="user_info"]{
+    display: inline-block;
+    max-width: 28%;
+    word-wrap: break-word;
+}
+
+#instanceMessageContent .messageItem .mesageContent {
+    display: inline-block;
+    width: 100px;
+    max-width: 35%;
+}
+
+#fileMessageContent .fileMessageItem span.hour {
+    width: 40px;
+}
+
+.messageItem .message-detail-content .message_content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    word-wrap: break-word;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+#file-message-view .defer-area{
+    position: relative;
+    top: -650px;
+    z-index: 9999;
+    background: transparent;
+    width:100%;
+    height:60px;
+
+}
+#file-message-view .defer-area .loading-img {
+    position: static;
+    margin: 0 auto;
+}
+
+#messageView .headBar{
+    height:25px;
+}
+#messageView .headBar a:hover{
+    color:#21577c
+}
+#messageView .headBar>span, #messageView .headBar>span>a{
+    display:block;
+    height:auto;
+}
+#messageView .headBar>span.back{
+    float:right;
+}
+#messageView .headBar>span.reply{
+    float:left;
+}
+#messageView i[class^="icon-custom-"]{
+    display:inline-block;
+    height:14px;
+    width:14px;
+    background-image: url('../../../../../baiduyundownload/os/img/icons.png');
+    vertical-align: middle;
+    margin-right:3px;
+}
+#messageView i.icon-custom-back{
+    background-position: -448px -238px;
+}
+#messageView i.icon-custom-reply{
+    background-position: -448px -252px;
+}
+#messageView a:hover i.icon-custom-back{
+    background-position: -420px -252px;
+}
+#messageView a:hover i.icon-custom-reply{
+    background-position: -434px -252px;
+}
+#messageView i.icon-custom-folder{
+    width:28px;
+    height:28px;
+    background-position: -238px -238px;
+}
+#messageView a:hover i.icon-custom-folder,#messageView li.active i.icon-custom-folder{
+    background-position: -266px -238px;
+}
+#messageView i.icon-custom-message{
+    width:28px;
+    height:28px;
+    background-position: -294px -238px;
+}
+#messageView a:hover i.icon-custom-message,#messageView li.active i.icon-custom-message{
+    background-position: -322px -238px;
+}
+#messageView .nav-tabs >li> a:hover{
+    color: #fff;
+}
+#messageView .nav-tabs>li> a:hover >span{
+    display: inline;
+    font-weight: bold;
+}

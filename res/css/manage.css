@@ -1,0 +1,199 @@
+#headerbox .nav.navbar-text {
+    display: none;
+}
+.manage-setting {
+    margin: 0 15px;
+}
+
+.manage-setting h2 {
+    font-size: 18px;
+    color: #08c;
+    border-bottom:1px solid #ccc;
+    height:45px;
+    line-height: 45px;
+}
+
+.manage-setting h3 {
+    font-size: 15px;
+    color: #08c;
+    line-height: 30px;
+}
+.manage-setting > .tabbable{
+    margin-top: 20px;
+}
+.manage-setting .ztree{
+    padding:0;
+}
+
+.current-service-table thead {
+    background: #deeafe;
+}
+
+.dtree .ico_open, .dtree .ico_close {
+    display: none !important;
+}
+
+.departmentTree.ztree .ico_open, .departmentTree.ztree .ico_close {
+    display: none;
+}
+
+ul.table-header li, ul.each-table li {
+    width: 10%;
+    text-align:center;
+}
+
+.view-add-user .control-group {
+    margin-bottom: 5px;
+}
+
+.view-add-user .control-label {
+    width: 110px;
+}
+
+.view-add-user .controls {
+    margin-left: 120px;
+}
+
+.manage-setting .avatar, .record-view .avatar {
+    width: 37px;
+}
+
+.sec-admin-item.checked {
+    background-color: #0088CC;
+}
+
+.ent-service-item .progress {
+    width: 60%;
+    margin-top: 20px;
+    float: left;
+}
+
+.ent-service-item .data {
+    width: 35%;
+    margin: 20px 0;
+    float: right;
+}
+
+/**
+ * 权限管理
+ */
+.disk-permisson ul li a.checked {
+    background-color: #fed593;
+}
+
+.chat-record-item .sender-name {
+    color: #3C9135;
+}
+
+.chat-record-item .sender-name.main-sender {
+    color: #4A3DF9;
+}
+
+.view-add-user {
+    width: 620px;
+}
+
+.add-user-form .radio {
+    display: inline-block;
+}
+
+.user-tree-wrapper > h3, .add-user-wrap > h3 {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+#memberView .form-horizontal .control-label{
+    width:100px;
+    padding-top: 0;
+}
+
+#memberView .form-horizontal .controls{
+    margin-left:120px;
+}
+
+#memberView .form-horizontal .form-actions{
+    padding:0;
+    background: transparent;
+    border: 0;
+    padding-left:120px;
+}
+
+#memberView  .ztree li a input.rename{
+    width:200px;
+    height:28px;
+}
+
+#memberView  .ztree li a.curSelectedNode_Edit{
+    background: transparent;
+    border:0;
+    height:30px;
+}
+
+
+.admin-guide-view .btn-info{
+    position:absolute;
+    bottom:30px;
+}
+
+#btnWizardPrev{
+    right:120px;
+}
+
+#btnWizardNext{
+    right:20px;
+}
+.admin-guide-view .wizard ul li{
+    border:0;
+    border-bottom:1px solid #ccc;
+    padding:0 15px;
+}
+.manage-setting .data-table{
+    margin:0;
+}
+ul.table-header li.file-check,ul.each-table li.file-check{
+    max-width: 30px;
+}
+ul.table-header li.realname,ul.each-table li.realname{
+    min-width:200px;
+}
+ul.table-header li.joinDate,ul.each-table li.joinDate{
+    min-width: 200px;
+}
+ul.table-header li.cs,ul.each-table li.cs{
+    text-align: left;
+    max-width:60px;
+}
+
+.admin-guide-view .step-content{
+    margin-top: 20px;
+}
+.admin-guide-view .fuelux .form-horizontal .control-label{
+    padding-top:0;
+}
+.admin-guide-view .fuelux .form-horizontal .controls{
+    height:25px;
+}
+.admin-guide-view .fuelux .form-horizontal .controls label{
+    height:25px;
+    line-height: 25px;
+}
+
+.record-view-content{
+    margin-top:20px;
+}
+
+.nav-tabs {
+    margin-bottom:10px;
+}
+
+.manage-setting .btn-toolbar{
+    margin:0;
+    margin-bottom: 10px;
+}
+
+/**
+ * 角色列表样式
+ */
+.role-table li a {
+    cursor: pointer;
+}

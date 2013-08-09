@@ -1,0 +1,554 @@
+body {
+    font-family: "宋体", Arial;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.navbar-static-top .container {
+    width: 960px;
+}
+
+.container {
+    width: 960px;
+}
+
+/**
+* 上导航
+*/
+.navbar-inverse .navbar-inner {
+    background-color: #2B7FBE;
+    background-image: linear-gradient(to bottom, #2B7FBE, #2B7FBE);
+    background-image: -moz-linear-gradient(top, #2B7FBE, #2B7FBE);
+    background-image: -webkit-linear-gradient(top, #2B7FBE, #2B7FBE);
+    background-image: -o-linear-gradient(top, #2B7FBE, #2B7FBE);
+    background-repeat: repeat-x;
+    border-color: #2B7FBE;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2B7FBE', endColorstr='#2B7FBE', GradientType=0);
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #006084;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar .nav > li > a {
+    color: #FFFFFF;
+    float: none;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #00739D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar .nav-logo {
+    width: 130px;
+    height: 59px;
+    background-image: url("../../../../../baiduyundownload/os/img/logo.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.navbar .span2 {
+    margin-left: 0;
+}
+
+.navbar li {
+    font-family: "Microsoft YaHei" !important;
+    font-size: 18px;
+    line-height: 59px;
+}
+
+.navbar li.span1 {
+    width: 96px;
+}
+
+.navbar li.span1:hover {
+    background-color: #105588;
+}
+
+.navbar ul > li + li + li {
+    margin-left: 5px;
+}
+
+.navbar .brand {
+    font-family: "Microsoft YaHei" !important;
+    font-size: 14px;
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar .brand span {
+    display: inline-block;
+    background-color: #004A80;
+    width: 65px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+
+.navbar .brand span:hover {
+    margin-top: 11px;
+    width: 63px;
+    border: 1px solid #37A2F2;
+}
+
+.navbar .brand span + span {
+    margin-left: 3px;
+}
+
+.navbar .brand span a {
+    color: #FFFFFF;
+    line-height: 59px;
+    width: 65px;
+    height: 37px;
+    line-height: 37px;
+    padding: 6px 15px;
+}
+
+/**
+* 底部
+*/
+.footer {
+    width: 100%;
+    height: 126px;
+    background: url("../../../../../baiduyundownload/os/img/logreg/footer.png") repeat-x scroll 0 0 transparent;
+    color: #7E7E7E;
+    font-size: 12px;
+}
+
+.footer .container > div {
+    width: 475px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footer .container > div p {
+    line-height: 35px;
+}
+
+.footer .container > div > p {
+    width: 475px;
+    margin: 0 auto;
+}
+
+.footer .container > div > p span {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer .container > div > p span  a {
+    color: #7e7e7e;
+}
+
+.footer .container > div > p + p {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.footer .container > div > p + p span {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.attention-title {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.attention-title a + a {
+    margin-left: 7px;
+}
+
+.attention-weixin {
+    line-height: 20px;
+}
+
+.arrention-oatos img {
+    margin-left: 65px;
+}
+
+/**
+ * 登陆
+ */
+.log-cont {
+    display: block;
+    min-height:745px;
+}
+
+.log-title .span4 > div {
+    font-family: "Microsoft YaHei" !important;
+    font-size: 24px;
+    color: #7c7c7d;
+    line-height: 140px;
+    margin-left: 23px;
+}
+
+.log-title .span3 > div {
+    font-size: 12px;
+    color: #a5a6a6;
+    line-height: 140px;
+}
+
+.login {
+    margin:0 auto;
+    width:460px;
+}
+
+.login .log-pic {
+    width: 717px;
+    height: 590px;
+    margin-top: -115px;
+    margin-left: -100px;
+    background-image: url("../../../../../baiduyundownload/os/img/logreg/15g.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login .login-title {
+    color: #7C7C7D;
+    font-family: "Microsoft YaHei" !important;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 2px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.login .login-pane {
+    width: 450px;
+    height: 305px;
+    float:left;
+}
+
+.login .login-pane #errorTip {
+    width: 320px;
+    height: 20px;
+    color: red;
+    text-align: center;
+    margin:0 auto;
+}
+
+.login .login-pane .checkbox {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.login .login-pane > form{
+    width:320px;
+    margin:0 auto;
+}
+
+.login .login-pane > form +div{
+    margin-top:20px;
+    text-align:center;
+}
+
+.login .login-pane form button {
+    margin-left: -50px;
+    width: 270px;
+    height: 40px;
+    font-family: "Microsoft YaHei" !important;
+    font-size: 18px;
+}
+
+.login-pane .form-horizontal .control-label {
+    width: 55px;
+}
+
+.login-pane .form-horizontal .controls {
+    margin-left: 70px;
+}
+
+/**
+ * 注册
+ */
+.reg-cont {
+    display: block;
+    min-height: 670px;
+}
+
+.reg-cont > .reg-main{
+    width:544px;
+    margin:0 auto;
+}
+
+.reg-reason {
+    color: #4d5b60;
+}
+
+.reg-cont .reg-reason > div {
+    margin-top: 75px;
+}
+
+.reg-cont .reg-reason > div .span1 > div {
+    width: 48px;
+    height: 48px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reg-reason .pic-one {
+    background-image: url("../../../../../baiduyundownload/os/img/logreg/3.png");
+}
+
+.reg-reason .pic-two {
+    background-image: url("../../../../../baiduyundownload/os/img/logreg/2.png");
+}
+
+.reg-reason .pic-three {
+    background-image: url("../../../../../baiduyundownload/os/img/logreg/1.png");
+}
+
+.reg-cont .reg-reason > div .span4 > p {
+    font-size: 22px;
+    font-family: "Microsoft YaHei" !important;
+}
+
+.reg-cont .reg-reason > div .span4 > p + p {
+    font-size: 12px;
+    font-family: "宋体", Arial !important;
+    color: #C1C1C1;
+}
+
+.reg-cont .span7 > div {
+    display: inline-block;
+    float: left;
+}
+
+.reg-cont .left-border,.log-cont .left-border {
+    background-image: url("../../../../../baiduyundownload/os/img/logreg/left.png");
+    width: 5px;
+    height: 380px;
+    float:left;
+}
+
+.reg-cont .right-border,.log-cont .right-border {
+    background-image: url("../../../../../baiduyundownload/os/img/logreg/right.png");
+    width: 5px;
+    height: 380px;
+    float:left;
+}
+
+.reg-cont .reg-pane {
+    float:left;
+    width:384px;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.reg-cont .reg-pane .reg-title {
+    padding:0;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.reg-pane > .reg-title > span {
+    font-family: "Microsoft YaHei" !important;
+    font-size: 24px;
+    color: #7c7c7d;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.reg-pane > .reg-title > span + span {
+    font-family: "宋体", Arial !important;
+    font-size: 12px;
+    color: #a5a6a6;
+    line-height: 40px;
+    margin-right: 15px;
+    float: right;
+}
+
+.reg-pane > .reg-title + div {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #c6c6c6;
+}
+
+.reg-pane > .login-info-title{
+    margin:15px 0 0 ! important;
+}
+
+.reg-pane > .login-info-title,#regForm > .login-info-title{
+    padding-left:10px ! important;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color:#626971 ! important;
+    border-bottom:1px solid #a0a0a0;
+}
+
+#regForm > .login-info-title{
+    margin:25px 0 0 ! important;
+}
+
+.reg-pane form #enterpriseName + span + span {
+    padding-left: 0px;
+    margin-left: -5px;
+}
+
+.reg-pane form button {
+    width: 270px;
+    height: 33px;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei" ! important;
+    font-size: 18px;
+}
+
+.reg-pane form + div {
+    width: 160px;
+    font-size: 12px;
+    margin-left: 220px;
+}
+
+.reg-pane .reg-check {
+    font-size: 12px;
+    margin-top: -7px;
+}
+
+.reg-pane .form-horizontal .control-label {
+    width: 60px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #414141;
+    text-align: left;
+    line-height:28px;
+    padding-top:0;
+    margin-bottom: 0;
+}
+
+.reg-pane .form-horizontal .control-label span.per-3{
+    display:inline-block;
+    width:16px;
+    text-align: center;
+}
+.per-3.first{
+    text-align:left ! important;
+}
+.per-3.last{
+    text-align:right ! important;
+}
+
+.reg-pane .form-horizontal .controls {
+    margin-left: 0;
+}
+
+.reg-pane .form-horizontal .controls input[type="text"], .reg-pane .form-horizontal .controls input[type="password"]{
+    width: 250px;
+    padding: 0 10px;
+    height: 28px;
+    border-radius: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #5c6a74;
+}
+
+.reg-pane .form-horizontal .controls .help-inline {
+    font-size: 12px;
+    color: #C6C6C6;
+    padding-left:0;
+    float:right;
+    margin-top:4px;
+}
+
+.reg-pane .form-horizontal .controls #VerCode {
+    width: 70px;
+}
+
+.reg-pane .form-horizontal .controls .code-image {
+    width: 82px;
+    height: 32px;
+}
+
+.reg-pane .form-horizontal .controls .code-image + span {
+    color: #0088CC;
+    cursor: pointer;
+    float:none;
+}
+
+.reg-pane .help-inline .error, .reg-pane .help-inline .name-error {
+    font-size: 12px;
+    color: #333333;
+    background-color: #FFEAE9;
+    border: 1px solid #FD5757;
+    border-radius: 3px 3px 3px 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 0px;
+}
+
+.reg-pane .right-tip {
+    font-size: 12px;
+    color: #51A351;
+    margin-bottom: 0px;
+}
+
+.form-horizontal .control-group{
+    margin:15px 0;
+}
+.reg-pane .controls .checkbox input[type="checkbox"] {
+    margin-left: 60px;
+}
+.login-info-title>ul{
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+.login-info-title>ul>li{
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+}
+.login-info-title>ul>li>i{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin-right:6px;
+    vertical-align: middle;
+}
+.login-info-title>ul>li>i + span{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ent-val-info,#contact-val-info{
+    text-align:right;
+    font-size: 14px;
+    font-family: bold;
+    color: #d43b12 ! important;
+}
+.icon-reg-info{
+    margin-top: 0;
+    background: url('../../../../../baiduyundownload/os/img/logreg/logreg-update.png') -43px -84px no-repeat;
+}
+.icon-reg-contact{
+    margin-top:0;
+    background: url('../../../../../baiduyundownload/os/img/logreg/logreg-update.png') -61px -84px no-repeat;
+}
+a{
+    cursor:pointer;
+}

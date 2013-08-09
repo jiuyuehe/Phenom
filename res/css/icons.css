@@ -1,0 +1,77 @@
+
+.iconDown {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: 0 -70px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconDown:hover {
+    background-position: 0 -84px;
+}
+
+.iconRemind {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: -14px -70px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconRemind:hover {
+    background-position: -14px -84px;
+}
+
+.iconShare {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: -28px -70px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconShare:hover {
+    background-position: -28px -84px;
+}
+
+.iconFavorite {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: -42px -70px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconFavorite:hover {
+    background-position: -42px -84px;
+}
+
+.iconRecycle {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: -56px -70px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconRecycle:hover {
+    background-position: -56px -84px;
+}
+
+.iconMove {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: -70px -70px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconMove:hover {
+    background-position: -70px -84px;
+}
+
+.iconCopy {
+    background-image: url("../../../../../baiduyundownload/os/img/icons.png");
+    background-position: -28px -112px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.iconCopy:hover {
+    background-position: -28px -126px;
+}

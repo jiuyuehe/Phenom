@@ -1,0 +1,252 @@
+#setting-left, #userInfoView {
+	font-family: Arial;
+	color: #778294;
+}
+
+/**
+ * 顶部导航
+ */
+.user-info-setting .breadcrumb {
+	padding: 8px 15px;
+	margin-left: 0px;
+	background-color: #DBE5F1;
+}
+.user-info-setting .breadcrumb li {
+	font-size: 14px;
+	font-weight: bold;
+	color: #304258;
+}
+.user-info-setting .breadcrumb li + li {
+	float: right;
+	color: #81899C;
+}
+.user-info-setting legend {
+	font-size: 14px;
+	font-weight: bold;
+	color: #798699;
+	height: 32px;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #768699;
+}
+
+/**
+ * 个人资料
+ */
+#userInfoView .user-info-set {
+	padding-top: 15px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+.user-info-set .row {
+	margin-left: 0;
+}
+.user-info-set .row .span2 {
+	width: 120px;
+}
+.user-info-set .row .span7 {
+	margin-left: 6px;
+}
+.user-info-set .img-avatar {
+	height: 96px;
+	width: 96px;
+	margin-top: 9px;
+	border: 3px solid #CDDBF6;
+}
+.user-info-set li {
+	height: 40px;
+	line-height: 40px;
+}
+.user-info-set span {
+	font-size: 14px;
+	font-weight: bold;
+	color: #3388C8;
+	margin-left: 2px;
+}
+.user-info-set span.online-status {
+	font-size: 12px;
+}
+.user-info-set .dropdown > div {
+    border: 1px solid #8590A4;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-bottom: -2px;
+}
+.user-info-set fieldset ul {
+	margin-left: 15px;
+}
+.user-info-set input {
+	margin-bottom: 0;
+}
+.user-info-set .input-append {
+	margin-bottom: 0;
+	margin-left: -3px;
+	height: 30px;
+}
+.user-info-set .user-gender {
+	display: inline-block;
+}
+.user-info-set .status {
+	display: inline-block;
+}
+.user-info-set .bold-four {
+	font-size: 14px;
+	font-weight: bold;
+	color: #768696;
+}
+.user-info-set .radio.inline {
+	padding-top: 0px;
+}
+.user-info-set #setting-userinfo {
+	margin-top: 15px;
+	margin-left: 120px;
+}
+
+/**
+ * 密码
+ */
+#resetPwdView form {
+	margin-top: 25px;
+	margin-left: 25px;
+	color: #798699;
+}
+
+/**
+ * 系统设置
+ */
+.user-system-setting {
+	padding-top: 28px;
+	padding-left: 75px;
+	color: #798699;
+}
+.user-system-setting legend + div {
+	margin-left: 15px;
+}
+.user-system-setting fieldset .controls {
+	height: 40px;
+	line-height: 40px;
+}
+.user-system-setting fieldset button {
+	margin-left: 100px;
+	margin-top: 16px;
+}
+
+/**
+ * 下载中心
+ */
+.page.col-full {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#main {
+	padding-left: 0;
+    width: 960px;
+}
+.content-title {
+    border-bottom: 1px solid #D1D1D1;
+    color: #929292;
+    font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif !important;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 12px 16px;
+}
+.client-center, .doc-center {
+    margin-top: 40px;
+    overflow: auto;
+}
+.twocol-one {
+    width: 48%;
+    float: left;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    position: relative;
+}
+.last {
+    clear: right;
+    margin-right: 0 !important;
+}
+.entry table {
+    border: 1px solid #C3C3C3;
+    border-collapse: collapse;
+}
+.client-center table, .client-center table td, .doc-center table, .doc-center table td {
+    border: 0 none !important;
+    box-shadow: none;
+    margin: 0;
+    vertical-align: middle;
+}
+.client-center table, .doc-center table {
+    width: 100%;
+}
+table tbody tr:last-child td:first-child {
+    background-clip: padding-box;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.client-center table, .client-center table td, .doc-center table, .doc-center table td {
+    border: 0 none !important;
+    box-shadow: none;
+    margin: 0;
+    vertical-align: middle;
+    padding: 0.857em 1.387em;
+}
+.width40 {
+    text-align: center;
+    width: 40%;
+}
+.entry table td div {
+	color: #929292;
+    font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.entry table td div.down-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+a.download {
+    background: url("../../../../../baiduyundownload/os/img/download/download1.png") no-repeat scroll center center transparent;
+    height: 50px;
+    margin-top: 18px;
+    width: 138px;
+    display: block;
+}
+a.download:hover {
+    background: url("../../../../../baiduyundownload/os/img/download/download2.png") no-repeat scroll center center transparent;
+}
+a.download.wait {
+    background: url("../../../../../baiduyundownload/os/img/download/wait.png") no-repeat scroll center center transparent;
+    cursor: default;
+}
+.twocol-one.android .detail + div {
+	margin-top: 16px;
+}
+
+
+
+
+
+/**
+ * 版本信息
+ */
+.version-show {
+	padding-top: 28px;
+	padding-left: 75px;
+	color: #798699;
+}
+.version-show p {
+	line-height: 2em;
+}
+.version-show p strong + strong {
+	margin-left: 260px;
+}
+.version-show .version-title {
+	margin-top: 10px;
+}
+.version-show ul {
+	margin-bottom: 10px;
+}

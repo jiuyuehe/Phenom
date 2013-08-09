@@ -3,11 +3,12 @@ define(function (require) {
     seajs.isPrivate = false;
     seajs.appVersion = "2013080803";
     seajs.config({
-        base: "./assets/sea-modules/",
+        base: "/sea-modules",
         plugins: ["text"],
         debug: false,
         paths: {
-            'cssbase': seajs.devMode ? '../../../css' : '../../../../css'
+            'cssbase': '../../res/css',
+            'webbase': "../../web"
         },
         //文件映射
         map: [
