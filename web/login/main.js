@@ -45,8 +45,9 @@ define(function (require) {
     });
 
     var tpls = {
-        "loginIndex": './tpls/LoginIndex.tpl',
-        "loginView": './tpls/LoginView.tpl'
+        "loginLayout": './tpls/LoginLayout.tpl',
+        "loginView": './tpls/LoginView.tpl',
+        "registerView": './tpls/RegisterView.tpl'
     }
 
     if (seajs.devMode) {

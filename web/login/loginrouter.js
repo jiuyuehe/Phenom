@@ -1,7 +1,6 @@
 define(function (require, exports, module) {
 
-    require("./views/LoginIndex");
-    require("./views/LoginView");
+    require("./views/LoginLayout");
 
     var LoginRouter = Backbone.Router.extend({
         routes: {
@@ -27,7 +26,7 @@ define(function (require, exports, module) {
         },
 
         initialize: function () {
-            view.indexpage = new IndexView({
+            view.loginLayout = new LoginLayout({
                 el: $("body")
             });
         },
@@ -36,10 +35,6 @@ define(function (require, exports, module) {
          * 进入系统后的首页
          */
         homepage: function (path) {
-            view.login = new LoginView({
-                model: new LoginDTO()
-            });
-            view.indexpage.$el.find(".login-view-wrap").html(view.login.el);
         }
     })
 

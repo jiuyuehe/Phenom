@@ -3,17 +3,15 @@ define(function (require, exports, module) {
     require('../../commons/model/user/LoginDTO');
     require('../../commons/model/user/RegisterDTO');
 
-    window.LoginView = Backbone.View.extend({
+    window.RegisterView = Backbone.View.extend({
         tagName: 'div',
-        className: 'log-cont',
+        className: 'view-register',
         _modelBinder: undefined,
 
-        loginDTO: undefined,
         registerDTO: undefined,
 
         events: {
-            "show #panel-register": "onShowRegister",
-            "click .btn-login": "onLogin"
+            "click .btn-register": "onRegister"
         },
 
         initialize: function () {
@@ -22,14 +20,14 @@ define(function (require, exports, module) {
         },
 
         render: function () {
-            this.loginDTO = this.model;
-            this.$el.html(tplpre.loginView());
+            this.registerDTO = this.model;
+            this.$el.html(tplpre.registerView());
 
             Backbone.Validation.bind(this, {
                 invalid: this.isValid
             });
 
-            this._modelBinder.bind(this.loginDTO, this.$el.find("form:first"));
+            this._modelBinder.bind(this.registerDTO, this.$el);
             return this;
         },
 
@@ -42,10 +40,13 @@ define(function (require, exports, module) {
             this.$el.find("input:text, input:password").attr("disabled", !enable);
         },
 
-        onLogin: function () {
-            if (this.loginDTO.isValid(true)) {
+        onRegister: function () {
+            if (this.registerDTO.isValid(true)) {
                 this.setInputEnable(false);
-                this.loginDTO.login(this._loginCallback());
+                this.registerDTO.register(function (result) {
+
+                });
+
             }
             return false;
         },
