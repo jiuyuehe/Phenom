@@ -18,12 +18,21 @@
     <file path="/LoginView.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376144579481" ignored="false" />
     <file path="/logininit.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376064748725" ignored="false" />
     <file path="/loginrouter.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376144353992" ignored="false" />
-    <file path="/RegisterDTO.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376065968734" ignored="false" />
+    <file path="/RegisterDTO.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376191760919" ignored="false" />
     <file path="/RegisterView.tpl" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376144236153" ignored="false" />
     <file path="/LoginLayout.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376145032861" ignored="false" />
     <file path="/RegisterView.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376144980053" ignored="false" />
     <file path="/LoginLayout.tpl" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376145065273" ignored="false" />
     <file path="/login-register.css" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376145179755" ignored="false" />
+    <file path="/app.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376194138394" ignored="false" />
+    <file path="/user.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376188256991" ignored="false" />
+    <file path="/config.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376186602531" ignored="false" />
+    <file path="/package.json" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376188544257" ignored="false" />
+    <file path="/user_dao.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376187763530" ignored="false" />
+    <file path="/user_router.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376192477546" ignored="false" />
+    <file path="/index.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376188147862" ignored="false" />
+    <file path="/routes.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376192999735" ignored="false" />
+    <file path="/resturl.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376194252752" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,78 +52,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginLayout.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/tpls/LoginLayout.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="135" selection-start="615" selection-end="615" vertical-scroll-proportion="-9.153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-register.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/css/login-register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="111" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08066429">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginView.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/views/LoginView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="42" selection-start="709" selection-end="718" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#505#603#0" expanded="true" />
-                <element signature="e#997#1174#0" expanded="true" />
-                <element signature="e#1345#1547#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegisterView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/views/RegisterView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+            <state line="10" column="19" selection-start="301" selection-end="312" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#565#859#0" expanded="true" />
-                <element signature="e#918#1095#0" expanded="true" />
-                <element signature="e#1140#1234#0" expanded="true" />
-                <element signature="e#1269#1498#0" expanded="true" />
-                <element signature="e#1537#2430#0" expanded="true" />
-                <element signature="e#1605#2420#0" expanded="true" />
+                <element signature="e#1269#1497#0" expanded="true" />
+                <element signature="e#1425#1445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginrouter.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/loginrouter.js">
+      <file leaf-file-name="RegisterDTO.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="49" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginLayout.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/views/LoginLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="56" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+            <state line="2" column="32" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#477#515#0" expanded="true" />
+                <element signature="e#1300#1617#0" expanded="true" />
+                <element signature="e#1480#1597#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/main.js">
+      <file leaf-file-name="resturl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/commons/utils/resturl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="21" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
+            <state line="40" column="14" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#144#378#0" expanded="true" />
+                <element signature="e#430#1250#0" expanded="true" />
+                <element signature="e#671#1242#0" expanded="true" />
+                <element signature="e#752#875#0" expanded="true" />
+                <element signature="e#919#1188#0" expanded="true" />
+                <element signature="e#1374#1582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="68" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.57751477">
+              <folding>
+                <element signature="e#1932#2072#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/routes/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_router.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/routes/user_router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="3" selection-start="211" selection-end="497" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#231#497#0" expanded="true" />
+                <element signature="e#397#464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,22 +144,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/css/bootstrap-editable.min.css" />
-        <option value="$PROJECT_DIR$/res/css/bootstrap-plugin.min.css" />
-        <option value="$PROJECT_DIR$/web/login/logininit.js" />
-        <option value="$PROJECT_DIR$/web/login/views/LoginIndex.js" />
-        <option value="$PROJECT_DIR$/web/commons/model/user/LoginDTO.js" />
-        <option value="$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js" />
-        <option value="$PROJECT_DIR$/web/login/tpls/RegisterView.tpl" />
-        <option value="$PROJECT_DIR$/web/login/tpls/LoginView.tpl" />
-        <option value="$PROJECT_DIR$/web/login/tpls/LoginIndex.tpl" />
+        <option value="$PROJECT_DIR$/node/model/user.js" />
+        <option value="$PROJECT_DIR$/node/dao/userdao.js" />
+        <option value="$PROJECT_DIR$/node/config.js" />
+        <option value="$PROJECT_DIR$/node/models/index.js" />
+        <option value="$PROJECT_DIR$/node/dao/user_dao.js" />
+        <option value="$PROJECT_DIR$/node/routes/user.js" />
+        <option value="$PROJECT_DIR$/node/routes/index.js" />
+        <option value="$PROJECT_DIR$/node/package.json" />
         <option value="$PROJECT_DIR$/web/login/main.js" />
-        <option value="$PROJECT_DIR$/web/login/loginrouter.js" />
-        <option value="$PROJECT_DIR$/web/login/views/LoginView.js" />
+        <option value="$PROJECT_DIR$/web/login/logininit.js" />
         <option value="$PROJECT_DIR$/web/login/views/RegisterView.js" />
-        <option value="$PROJECT_DIR$/web/login/views/LoginLayout.js" />
-        <option value="$PROJECT_DIR$/web/login/tpls/LoginLayout.tpl" />
-        <option value="$PROJECT_DIR$/res/css/login-register.css" />
+        <option value="$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js" />
+        <option value="$PROJECT_DIR$/node/routes/user_router.js" />
+        <option value="$PROJECT_DIR$/node/routes/routes.js" />
+        <option value="$PROJECT_DIR$/web/commons/utils/resturl.js" />
+        <option value="$PROJECT_DIR$/node/app.js" />
       </list>
     </option>
   </component>
@@ -190,6 +195,11 @@
             <id>Potentially confusing code constructsJavaScript</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -291,6 +301,32 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -316,7 +352,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="sea-modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,11 +370,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="sea-modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="commons-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phenom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,25 +453,26 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\github\Phenom\node\routes" />
+      <recent name="D:\workspace\github\Phenom\node\models" />
+      <recent name="D:\workspace\github\Phenom\node\model" />
       <recent name="D:\workspace\github\Phenom\web\login\views" />
       <recent name="D:\workspace\github\Phenom\web\commons\model\user" />
-      <recent name="D:\workspace\github\Phenom\web" />
-      <recent name="D:\workspace\github\Phenom\web\login" />
-      <recent name="D:\workspace\github\Phenom" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\github\Phenom\node\beans" />
+      <recent name="D:\workspace\github\Phenom\node\routes" />
       <recent name="D:\workspace\github\Phenom\res" />
       <recent name="D:\workspace\github\Phenom\res\css" />
       <recent name="D:\workspace\github\Phenom" />
-      <recent name="D:\workspace\github\Phenom\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -404,11 +513,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.67012686" order="0" side_tool="false" content_ui="combo" />
@@ -452,7 +561,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -487,110 +596,146 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sea-modules/gallery/backbone/1.0.0/backbone-all.js">
+    <entry file="file://$PROJECT_DIR$/node/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="48691" selection-end="48691" vertical-scroll-proportion="0.14389358" />
+        <state line="9" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.18106508">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/commons/utils/util.js">
+    <entry file="file://$PROJECT_DIR$/node/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="373" column="63" selection-start="11871" selection-end="11871" vertical-scroll-proportion="0.0" />
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/commons/model/user/UserDTO.js">
+    <entry file="file://$PROJECT_DIR$/node/dao/user_dao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="658" selection-end="658" vertical-scroll-proportion="0.4857143" />
+        <state line="13" column="16" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#185#347#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/commons/utils/security.js">
+    <entry file="file://$PROJECT_DIR$/node/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="28" selection-start="2053" selection-end="2064" vertical-scroll-proportion="0.4738095" />
+        <state line="24" column="85" selection-start="549" selection-end="549" vertical-scroll-proportion="0.4981685">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/commons/model/user/LoginDTO.js">
+    <entry file="file://$PROJECT_DIR$/sea-modules/gallery/wind/wind-all-0.7.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="190" selection-end="190" vertical-scroll-proportion="0.020238096" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3390#48589#0" expanded="false" />
+            <element signature="e#32006#32077#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js">
+    <entry file="file://$PROJECT_DIR$/sea-modules/commons-utils/commons-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="48" selection-start="716" selection-end="716" vertical-scroll-proportion="0.06904762" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sea-modules/gallery/backbone-plugin/backbone-validation/backbone-validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="80" selection-start="13068" selection-end="13068" vertical-scroll-proportion="0.28053203" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/tpls/RegisterView.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/tpls/LoginView.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" />
+        <state line="11" column="18" selection-start="19771" selection-end="19771" vertical-scroll-proportion="0.16346154">
+          <folding>
+            <element signature="e#61#202#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/loginrouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="49" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/views/LoginView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="42" selection-start="709" selection-end="718" vertical-scroll-proportion="0.0">
+        <state line="46" column="49" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7585799">
           <folding>
-            <element signature="e#505#603#0" expanded="true" />
-            <element signature="e#997#1174#0" expanded="true" />
-            <element signature="e#1345#1547#0" expanded="true" />
+            <element signature="e#792#1031#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/logininit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.12071006">
+          <folding>
+            <element signature="e#452#534#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/commons/model/user/UserDTO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="49" selection-end="157" vertical-scroll-proportion="0.040236685">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/views/RegisterView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="10" column="19" selection-start="301" selection-end="312" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#565#859#0" expanded="true" />
-            <element signature="e#918#1095#0" expanded="true" />
-            <element signature="e#1140#1234#0" expanded="true" />
-            <element signature="e#1269#1498#0" expanded="true" />
-            <element signature="e#1537#2430#0" expanded="true" />
-            <element signature="e#1605#2420#0" expanded="true" />
+            <element signature="e#1269#1497#0" expanded="true" />
+            <element signature="e#1425#1445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/views/LoginLayout.js">
+    <entry file="file://$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="56" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+        <state line="2" column="32" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#477#515#0" expanded="true" />
+            <element signature="e#1300#1617#0" expanded="true" />
+            <element signature="e#1480#1597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/tpls/LoginLayout.tpl">
+    <entry file="file://$PROJECT_DIR$/node/node_modules/should/lib/should.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="135" selection-start="615" selection-end="615" vertical-scroll-proportion="-9.153846">
+        <state line="200" column="6" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.3325444">
+          <folding>
+            <element signature="e#3194#3223#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/css/login-register.css">
+    <entry file="file://$PROJECT_DIR$/node/routes/user_router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="111" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08066429">
-          <folding />
+        <state line="20" column="3" selection-start="211" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#231#497#0" expanded="true" />
+            <element signature="e#397#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/commons/utils/resturl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#144#378#0" expanded="true" />
+            <element signature="e#430#1250#0" expanded="true" />
+            <element signature="e#671#1242#0" expanded="true" />
+            <element signature="e#752#875#0" expanded="true" />
+            <element signature="e#919#1188#0" expanded="true" />
+            <element signature="e#1374#1582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="68" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.57751477">
+          <folding>
+            <element signature="e#1932#2072#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

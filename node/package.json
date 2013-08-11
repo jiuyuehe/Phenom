@@ -1,0 +1,30 @@
+{
+    "name": "application-name",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "underscore": "*",
+        "underscore.string": "*",
+        "express": "3.3.4",
+        "socket.io": "*",
+        "ejs": "*",
+        "stylus": "*",
+        "request": "~2.25.0",
+        "mongoose": "3.6.16",
+        "ndir": "0.1.5",
+
+        "handlebars": "*",
+        "consolidate": "*",
+        "wind": "*",
+        "seajs": "*",
+        "uuid": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "nodemon": "0.7.10"
+    }
+}

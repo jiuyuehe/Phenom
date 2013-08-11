@@ -46,7 +46,6 @@ define(function (require, exports, module) {
                 this.registerDTO.register(function (result) {
 
                 });
-
             }
             return false;
         },

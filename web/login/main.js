@@ -19,7 +19,7 @@ define(function (require) {
         'boostrap-response': 'cssbase/bootstrap-responsive.min.css',
         'bootstrap-plugin': 'cssbase/bootstrap-plugin.min.css',
         'login-register': seajs.devMode ? "cssbase/login-register.css" : "cssbase/login-register.min.css"
-    }
+    };
 
     require.async(_.values(cssfiles));
 
@@ -32,7 +32,6 @@ define(function (require) {
         consoleAppender.setThreshold(log4javascript.Level.DEBUG);
         log.addAppender(consoleAppender);
     }());
-
 
     _.extend(window, {
         model: {},

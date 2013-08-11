@@ -15,5 +15,4 @@ define(function (require) {
         var router = require("./loginrouter");
         router.initialize()
     });
-    /**end module*/
 })

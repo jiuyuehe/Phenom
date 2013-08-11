@@ -1,17 +1,16 @@
 define(function (require, exports, module) {
 
-    /**
-     * 用户登陆DTO
-     */
+    require("../../utils/crypto-sha256");
+    require("../../utils/util");
+    require("../../utils/security");
+
     window.RegisterDTO = Backbone.Model.extend({
         urlRoot: "",
 
         defaults: {
-            username: "",
-            password: "",
-            repassword: "",
-            agent: util.getAgent(),
-            clientId: util.guid()
+            username: "google@qq.com",
+            password: "123456",
+            repassword: "123456"
         },
 
         initialize: function () {
@@ -55,18 +54,10 @@ define(function (require, exports, module) {
         register: function (callback) {
             var that = this;
             this.set(Security.getNonceDTO(this.get("username"), this.get("password")));
-            eval(Wind.compile("async", function () {
-                var result = resturl.logon(loginJson);
-                if (constants.isResponseError(result)) {
-                    callback && callback(result);
-                    return false;
-                }
-
-                $.cookie("un", loginDTO.get("username"));
-                $.cookie("ut", userToken, {path: '/'});
-                $.cookie("si", true, {path: '/'});
-                callback && callback('OK');
-            }))().start();
+            resturl.register(this.toJSON(),function (result) {
+                log.debug("register result: ", result);
+                callback && callback(result);
+            }).start();
         }
     });
 
