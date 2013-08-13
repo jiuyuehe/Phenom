@@ -1,15 +1,10 @@
 var models = require("../models");
 
 var User = models.User;
-User.prototype.saveAsync = Binding.fromStandard(User.prototype.save);
-
-exports.saveUserAsync = function (username, password) {
+exports.saveUserAsync = function (registerDTO) {
     var user = new User();
-    user.username = username;
-    user.realname = username.split('@')[0];
-    user.password = password;
-    user.save(function (err, result) {
-        console.log("user err:", err, ", result: ", result);
-    });
+    _.extend(user, registerDTO);
+    user.saveAsync = Binding.fromStandard(user.save);
+    return user.saveAsync();
 }
 
