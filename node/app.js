@@ -62,13 +62,10 @@ if (!app.get('env') || 'development' == app.get('env')) {
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 }
 
+routes(app);
+
 var server = http.createServer(app).listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
 server.setMaxListeners(0);
 
-app.options('/register', function (req, res) {
-    console.log("register: ", req.body.objectData);
-    res.header("Access-Control-Allow-Origin", "*");
-    res.json({succ: "OK"}, 200);
-});

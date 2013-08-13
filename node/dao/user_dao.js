@@ -8,6 +8,8 @@ exports.saveUserAsync = function (username, password) {
     user.username = username;
     user.realname = username.split('@')[0];
     user.password = password;
-    return user.saveAync();
+    user.save(function (err, result) {
+        console.log("user err:", err, ", result: ", result);
+    });
 }
 

@@ -11,11 +11,8 @@ exports.login = function (req, res) {
 
 exports.register = function (req, res) {
     console.log("register: ", req.body);
-    var username = req.params.username;
-    var password = req.params.password;
-    eval(Wind.compile("async", function () {
-        $await(userDao.saveUserAsync(username, password));
-
-    }));
+    var username = req.body.username;
+    var password = req.body.password;
+    userDao.saveUserAsync(username, password)
     res.json({succ: "OK"});
 }

@@ -1,22 +1,20 @@
 define(function (require, exports, module) {
 
-    var baseurl = "http://localhost:3000";
+    var baseurl = "http://localhost/service";
 
-    var asAjaxOptions = function (url, data, options) {
+    var asAjaxOptions = function (url, data) {
         return {
             url: baseurl + url,
             type: "POST",
             dataType: 'json',
             contentType: 'application/json',
             timeout: 10000,
-            data: {username: 'yufei'}
+            data: _.isString(data) ? data : JSON.stringify(data)
         };
     }
 
-    var ajaxAsync = function (url, data, options) {
-        var option = asAjaxOptions(url, data, _.isFunction(options) ? {} : options);
-        var callback = _.isFunction(options) ? options : null;
-
+    var ajaxAsync = function (url, data, callback) {
+        var option = asAjaxOptions(url, data);
         log.debug("option: ", option);
         return new Wind.Async.Task(function (task) {
             jQuery.extend(option, {
@@ -42,11 +40,7 @@ define(function (require, exports, module) {
 
     var restful = {};
     _.each(services, function (url, key) {
-        if (_.startsWith(key, "get")) {
-            restful[key] = _.partial(ajaxAsync, url, undefined, {type: 'GET'});
-        } else {
-            restful[key] = _.partial(ajaxAsync, url);
-        }
+        restful[key] = _.partial(ajaxAsync, url);
     })
 
     return restful;

@@ -54,7 +54,9 @@ define(function (require, exports, module) {
         register: function (callback) {
             var that = this;
             this.set(Security.getNonceDTO(this.get("username"), this.get("password")));
-            resturl.register(this.toJSON(),function (result) {
+            resturl.register({
+                'username': 'yufei',
+                "password": '123456'},function (result) {
                 log.debug("register result: ", result);
                 callback && callback(result);
             }).start();
