@@ -1,0 +1,31 @@
+# name virual host
+server {
+listen       80;
+server_name  hostname.com www.hostname.com;
+root         ../;
+
+access_log   logs/hostname_access.log combined;
+error_log    logs/hostname_error.log;
+index        index.html index.htm index.php;
+
+#limit_rate   100k;
+
+location ~ .*\.(gif|jpeg|jpg|png|html|css|js|ico|tpl|txt|swf|eot|svg|ttf|woff|otf)$ {
+expires -1d; 
+        if (!-e $request_filename) {
+        proxy_pass  http://127.0.0.1:81;
+        break;
+        }
+}
+
+location /test {
+#limit_conn perip 1;
+limit_rate_after 5m;
+limit_rate 50k;
+}
+
+location / {
+proxy_pass  http://127.0.0.1:81;
+}
+
+}
