@@ -5,7 +5,7 @@
     <ignored path="Phenom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376144552978" ignored="false" />
-    <file path="/login.html" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376058731022" ignored="false" />
+    <file path="/login.html" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376399793244" ignored="false" />
     <file path="/main.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376144319319" ignored="false" />
     <file path="/seajs-config.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376061008168" ignored="false" />
     <file path="/seajs-text-debug.js" changelist="9c02a0ed-4130-48d9-8cb4-84ff6e950c11" time="1376061137039" ignored="false" />
@@ -56,10 +56,7 @@
         <entry file="file://$PROJECT_DIR$/web/login/views/RegisterView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="19" selection-start="301" selection-end="312" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1269#1497#0" expanded="true" />
-                <element signature="e#1425#1445#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,10 +65,7 @@
         <entry file="file://$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="32" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1300#1617#0" expanded="true" />
-                <element signature="e#1480#1597#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,25 +74,43 @@
         <entry file="file://$PROJECT_DIR$/web/commons/utils/resturl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="40" column="14" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#144#378#0" expanded="true" />
-                <element signature="e#430#1250#0" expanded="true" />
-                <element signature="e#671#1242#0" expanded="true" />
-                <element signature="e#752#875#0" expanded="true" />
-                <element signature="e#919#1188#0" expanded="true" />
-                <element signature="e#1374#1582#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="68" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.57751477">
-              <folding>
-                <element signature="e#1932#2072#0" expanded="true" />
-              </folding>
+            <state line="50" column="68" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginDTO.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/commons/model/user/LoginDTO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="19" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginLayout.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login/views/LoginLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="64" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="85" selection-start="311" selection-end="311" vertical-scroll-proportion="0.3097166">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,10 +128,7 @@
         <entry file="file://$PROJECT_DIR$/node/routes/user_router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="3" selection-start="211" selection-end="497" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#231#497#0" expanded="true" />
-                <element signature="e#397#464#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/node/model/user.js" />
         <option value="$PROJECT_DIR$/node/dao/userdao.js" />
         <option value="$PROJECT_DIR$/node/config.js" />
         <option value="$PROJECT_DIR$/node/models/index.js" />
@@ -160,14 +168,13 @@
         <option value="$PROJECT_DIR$/node/routes/routes.js" />
         <option value="$PROJECT_DIR$/web/commons/utils/resturl.js" />
         <option value="$PROJECT_DIR$/node/app.js" />
+        <option value="$PROJECT_DIR$/login.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -229,7 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,7 +344,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sea-modules" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,10 +371,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sea-modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,26 +442,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phenom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phenom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,9 +452,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Errors" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -513,14 +510,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.67012686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979855" sideWeight="0.67012686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -530,6 +526,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -561,7 +558,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -596,29 +593,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.18106508">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/dao/user_dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#185#347#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="85" selection-start="549" selection-end="549" vertical-scroll-proportion="0.4981685">
@@ -628,75 +602,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sea-modules/gallery/wind/wind-all-0.7.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3390#48589#0" expanded="false" />
-            <element signature="e#32006#32077#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sea-modules/commons-utils/commons-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="19771" selection-end="19771" vertical-scroll-proportion="0.16346154">
-          <folding>
-            <element signature="e#61#202#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="11" column="18" selection-start="19771" selection-end="19771" vertical-scroll-proportion="0.16346154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="49" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7585799">
-          <folding>
-            <element signature="e#792#1031#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="46" column="49" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7585799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/logininit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.12071006">
-          <folding>
-            <element signature="e#452#534#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="6" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.12071006" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/commons/model/user/UserDTO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="49" selection-end="157" vertical-scroll-proportion="0.040236685">
-          <folding />
-        </state>
+        <state line="2" column="3" selection-start="49" selection-end="157" vertical-scroll-proportion="0.040236685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/views/RegisterView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="19" selection-start="301" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1269#1497#0" expanded="true" />
-            <element signature="e#1425#1445#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/commons/model/user/RegisterDTO.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="32" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1300#1617#0" expanded="true" />
-            <element signature="e#1480#1597#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/node_modules/should/lib/should.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="6" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.3325444">
-          <folding>
-            <element signature="e#3194#3223#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="200" column="6" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.3325444" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/routes/routes.js">
@@ -709,33 +654,42 @@
     <entry file="file://$PROJECT_DIR$/node/routes/user_router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="3" selection-start="211" selection-end="497" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#231#497#0" expanded="true" />
-            <element signature="e#397#464#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/commons/utils/resturl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="14" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#144#378#0" expanded="true" />
-            <element signature="e#430#1250#0" expanded="true" />
-            <element signature="e#671#1242#0" expanded="true" />
-            <element signature="e#752#875#0" expanded="true" />
-            <element signature="e#919#1188#0" expanded="true" />
-            <element signature="e#1374#1582#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="68" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.57751477">
-          <folding>
-            <element signature="e#1932#2072#0" expanded="true" />
-          </folding>
+        <state line="50" column="68" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/commons/model/user/LoginDTO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="19" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/views/LoginLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="64" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="85" selection-start="311" selection-end="311" vertical-scroll-proportion="0.3097166">
+          <folding />
         </state>
       </provider>
     </entry>
